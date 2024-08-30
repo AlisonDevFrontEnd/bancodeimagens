@@ -1,0 +1,95 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f0f0f0; /* Fundo suave para o body */
+}
+
+.login-container {
+  margin-bottom: auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 1rem;
+  background-color: #fff;
+  width: 100%;
+  max-width: 400px; /* Define uma largura máxima */
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+  color: #333;
+}
+
+.form-row {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.form-input:focus {
+  border-color: #007bff; /* Cor ao focar no campo de input */
+}
+
+.form-label {
+  position: absolute;
+  top: -0.75rem;
+  left: 1rem;
+  background-color: #fff;
+  padding: 0 0.25rem;
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.forgot-pwd {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  font-size: 0.875rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.forgot-pwd:hover {
+  text-decoration: underline;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background-color: #007bff;
+  border: none;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3; /* Cor ao passar o mouse no botão */
+}
+
+.sign-up-text {
+  margin-top: 1.5rem;
+  font-size: 0.875rem;
+  color: #333;
+}
+
+.sign-up-text a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.sign-up-text a:hover {
+  text-decoration: underline;
+}

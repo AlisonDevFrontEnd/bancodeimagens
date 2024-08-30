@@ -1,0 +1,14 @@
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+h2 {
+  padding: 20px;
+}
+p {
+  padding: 20px;
+  line-height: 1.6;
+  max-width: 70ch;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
